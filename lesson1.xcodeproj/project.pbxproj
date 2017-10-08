@@ -12,6 +12,7 @@
 		903231BE1F8AAED800AE78C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 903231BC1F8AAED800AE78C2 /* Main.storyboard */; };
 		903231C01F8AAED800AE78C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 903231BF1F8AAED800AE78C2 /* Assets.xcassets */; };
 		903231C31F8AAED800AE78C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 903231C11F8AAED800AE78C2 /* LaunchScreen.storyboard */; };
+		903231CB1F8AD7A700AE78C2 /* images.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 903231CA1F8AD7A700AE78C2 /* images.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		903231BF1F8AAED800AE78C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		903231C21F8AAED800AE78C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		903231C41F8AAED800AE78C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		903231CA1F8AD7A700AE78C2 /* images.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = images.jpeg; path = ../../../../../../../Desktop/images.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				903231BF1F8AAED800AE78C2 /* Assets.xcassets */,
 				903231C11F8AAED800AE78C2 /* LaunchScreen.storyboard */,
 				903231C41F8AAED800AE78C2 /* Info.plist */,
+				903231CA1F8AD7A700AE78C2 /* images.jpeg */,
 			);
 			path = lesson1;
 			sourceTree = "<group>";
@@ -124,6 +127,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				903231C31F8AAED800AE78C2 /* LaunchScreen.storyboard in Resources */,
+				903231CB1F8AD7A700AE78C2 /* images.jpeg in Resources */,
 				903231C01F8AAED800AE78C2 /* Assets.xcassets in Resources */,
 				903231BE1F8AAED800AE78C2 /* Main.storyboard in Resources */,
 			);
@@ -299,6 +303,7 @@
 				903231C91F8AAED800AE78C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

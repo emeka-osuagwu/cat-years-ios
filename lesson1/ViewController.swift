@@ -10,6 +10,9 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var catYears: UILabel!
+    @IBOutlet weak var userInput: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -21,5 +24,12 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func calculate(_ sender: UIButton) {
+        let result = Int(userInput.text!)! * 7
+        catYears.text = String(result)
+        userInput.text = ""
+    }
+
 }
+
 
